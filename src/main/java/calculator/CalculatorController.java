@@ -22,7 +22,7 @@ public class CalculatorController {
     }
 
     @FXML
-    public void processDigit(ActionEvent event) {
+    private void processDigit(ActionEvent event) {
         String digitPressed = ((Button) event.getSource()).getText();
         System.out.println(digitPressed);
         if (startNumber || display.getText().equals("0")) {
@@ -34,7 +34,7 @@ public class CalculatorController {
     }
 
     @FXML
-    public void processOperator(ActionEvent event) {
+    private void processOperator(ActionEvent event) {
         String operatorPressed = ((Button) event.getSource()).getText();
         System.out.println(operatorPressed);
         if (operatorPressed.equals("=")) {
