@@ -16,13 +16,13 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>14.0.1</version>
+            <version>15.0.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>14.0.1</version>
+            <version>15.0.1</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
@@ -31,7 +31,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.3</version>
+                <version>3.2.4</version>
                 <executions>
                     <execution>
                         <goals>
